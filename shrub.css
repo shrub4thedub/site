@@ -1,0 +1,51 @@
+html,
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+a,
+a:visited,
+#side-bar a,
+header nav a,
+header h1 a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header,
+footer,
+#side-bar,
+article {
+    background: none;
+    box-shadow: none;
+}
+
+#side-bar,
+article {
+    padding: 1rem;
+}
+
+.sideBarTitle,
+article h1,
+article h2,
+article h3 {
+    color: #000000;
+}
+
+blockquote {
+    border-left: 2px solid #666666;
+    padding-left: 1rem;
+    color: #333333;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
